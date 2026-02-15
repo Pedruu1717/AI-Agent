@@ -5,5 +5,4 @@
 - After each episode, the Q Learning table is updated. This table contains rewards for each possible action in each possible state, which are calculated from the Goal to the initial position for each episode.
 - After all episodes are completed, arrows are marked on the board to indicate the best action to take in each state.
 
-###### Note: 
-To make each episode ‘faster,’ in the client.py file, you can change the sleep_t parameter in the execute method of the Client class and set it to 0.
+In order to make each episode ‘faster,’ in the client.py file, you can change the sleep_t parameter in the execute method of the Client class and set it to 0.
