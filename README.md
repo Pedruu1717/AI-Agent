@@ -6,3 +6,5 @@ Developed model-free learning:
 - After all episodes are completed, arrows are marked on the board to indicate the best action to take in each state.
 
 In order to make each episode ‘faster,’ in the client.py file, you can change the sleep_t parameter in the execute method of the Client class and set it to 0.
+
+Authors: Pedro Melo
